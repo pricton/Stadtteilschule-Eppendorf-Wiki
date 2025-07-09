@@ -103,6 +103,37 @@
       }
     }
   </style>
+  #ueberUnsButton {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px 16px;
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  z-index: 2000;
+}
+
+#ueberUnsText {
+  display: none;
+  position: fixed;
+  bottom: 70px;
+  left: 20px;
+  max-width: 300px;
+  background: white;
+  border: 1px solid var(--accent);
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  font-family: 'Segoe UI', sans-serif;
+  color: var(--dark);
+  z-index: 2000;
+}
+
 </head>
 <body>
 <header>
@@ -117,7 +148,6 @@
   <button onclick="zeige('personen')">Personen & Credits</button>
   <button onclick="zeige('Direktor')">Haupt-Direktor</button>
   <button onclick="zeige('Kontakt')">Unsere Informationen</button>
-  <button onclick="zeige('Über uns')">Über uns</button>
 </nav>
 <section id="info" class="active">
   <h2>📍 Allgemeine Informationen</h2>
@@ -173,35 +203,6 @@
 <section id="Direktor">
   <h2>🕵️ Haupt-Direktor</h2>
   <p>Zuvor wurde diese Webseite von <strong>Kihan N.</strong> entwickelt. Seine Spezialität? Kaffee, Kreide und kosmische Lehrpläne. 😄</p>
-</section>
-<section id="Über uns">
-<h2>Über uns</h2>
-<p> <strong> Über uns
-Willkommen an der Grund- und Stadtteilschule Eppendorf (GSE) – einer Schule, die mehr ist als ein Lernort. Wir sind ein lebendiger Bildungsraum mitten in Hamburg, in dem Kinder und Jugendliche von der Vorschule bis zum Abitur begleitet, gefördert und gefordert werden. Unsere Schule steht für Vielfalt, Gemeinschaft und eine Pädagogik, die den Menschen in den Mittelpunkt stellt.
-🌱 Unsere Philosophie: Klein anfangen – gemeinsam wachsen – groß rauskommen
-Dieser Leitsatz prägt unser tägliches Handeln. Wir glauben daran, dass Bildung nicht nur Wissen vermittelt, sondern Persönlichkeiten formt. Deshalb fördern wir unsere Schüler:innen individuell – mit Herz, Verstand und einem klaren Blick für ihre Stärken und Bedürfnisse.
-🏫 Unsere Struktur
-Die GSE ist eine staatliche Langformschule mit drei Standorten in den Stadtteilen Hoheluft-Ost und Eppendorf:
-    Löwenstraße 58: Vorschule, Grundschule und Jahrgänge 5–7
-    Curschmannstraße 39: Jahrgänge 8–9
-    Schottmüllerstraße 23: Oberstufe (Jahrgänge 10–13)
-Mit über 1300 Schüler:innen und einem engagierten Kollegium bieten wir ein breites Bildungsangebot – vom ersten Schulabschluss bis zur Hochschulreife.
-🤝 Vielfalt & Inklusion
-Unsere Schule lebt Vielfalt. Kinder mit und ohne Behinderung, mit unterschiedlichen kulturellen Hintergründen und Bildungszielen lernen bei uns gemeinsam. In Integrations- und Inklusionsklassen fördern wir gegenseitiges Verständnis und ein respektvolles Miteinander. Demokratisches Lernen, Partizipation und Mitgestaltung sind bei uns keine Schlagworte, sondern gelebte Praxis – vom Klassenrat bis zum Schüler:innenparlament.
-🎨 Bildung mit Profil
-Wir setzen auf eine ganzheitliche Bildung, die über den Unterricht hinausgeht:
-    Musik & Kultur: Kooperation mit „The Young ClassX“, Bigband-Angebote, Kulturabende und Stadtteilkonzerte
-    Sport & Bewegung: Teilnahme an „Jugend trainiert für Olympia“, Bundesjugendspiele, eigener Sportplatz
-    Umwelt & Nachhaltigkeit: Fünfmal ausgezeichnet als „Umweltschule in Europa“, Solaranlagen-Projekte, Umwelt-AGs
-    Berufsorientierung: Träger des „Berufswahl-SIEGEL Hamburg“, Praktika, Workshops und Studienberatung
-💻 Lernen mit digitalen Medien
-Digitale Bildung ist bei uns fest verankert. Mit Lernplattformen, Smartboards und digitalen Endgeräten gestalten wir modernen Unterricht, der auf die Zukunft vorbereitet. Gleichzeitig achten wir darauf, dass Technik sinnvoll und pädagogisch fundiert eingesetzt wird.
-🧑‍🏫 Pädagogisches Team & Schulklima
-Unsere Lehrkräfte, Sozialpädagog:innen und Mitarbeiter:innen arbeiten Hand in Hand, um eine vertrauensvolle und fördernde Lernatmosphäre zu schaffen. Regelmäßige Fortbildungen, pädagogische Jahrestage und ein aktiver Austausch mit Eltern und Schüler:innen sorgen dafür, dass wir uns als Schule stetig weiterentwickeln.
-📚 Geschichte & Architektur
-Die GSE blickt auf eine bewegte Geschichte zurück: Gegründet 1990 als Gesamtschule Eppendorf, wurde sie 2010 im Zuge der Hamburger Schulreform zur Stadtteilschule. Die historischen Schulgebäude – darunter das denkmalgeschützte Haus an der Löwenstraße – verbinden Tradition mit Moderne und bieten Raum für kreatives Lernen.
-</strong>
-</p> 
 </section>
 <footer>
   © 2025 Inoffizielle Wiki-Seite zur Stadtteilschule Eppendorf | Erstellt mit ❤️ von zufälligen Genies
