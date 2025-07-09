@@ -103,37 +103,6 @@
       }
     }
   </style>
-  #ueberUnsButton {
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-  padding: 10px 16px;
-  background-color: var(--primary);
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-weight: bold;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-  z-index: 2000;
-}
-
-#ueberUnsText {
-  display: none;
-  position: fixed;
-  bottom: 70px;
-  left: 20px;
-  max-width: 300px;
-  background: white;
-  border: 1px solid var(--accent);
-  padding: 15px;
-  border-radius: 5px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-  font-family: 'Segoe UI', sans-serif;
-  color: var(--dark);
-  z-index: 2000;
-}
-
 </head>
 <body>
 <header>
@@ -213,12 +182,5 @@
     document.getElementById(id).classList.add('active');
   }
 </script>
-  <button id="ueberUnsButton" onclick="toggleText()">Über uns</button>
-
-<div id="ueberUnsText">
-  <h3>Über uns</h3>
-  <p>Willkommen an der Grund- und Stadtteilschule Eppendorf. Wir sind eine lebendige Schulgemeinschaft, die Kinder von der Vorschule bis zum Abitur begleitet und fördert.</p>
-</div>
-
 </body>
 </html>
