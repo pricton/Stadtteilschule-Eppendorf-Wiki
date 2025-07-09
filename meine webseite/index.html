@@ -10,20 +10,17 @@
       --dark: #333;
       --accent: #e0e0e0;
     }
-
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
     }
-
     body {
       font-family: "Segoe UI", sans-serif;
       background-color: var(--light);
       color: var(--dark);
       line-height: 1.6;
     }
-
     header {
       background-color: var(--primary);
       color: white;
@@ -34,16 +31,13 @@
       gap: 20px;
       flex-wrap: wrap;
     }
-
     header img {
       width: 80px;
       height: 80px;
     }
-
     header h1 {
       font-size: 1.8em;
     }
-
     nav {
       position: sticky;
       top: 0;
@@ -55,7 +49,6 @@
       padding: 10px;
       z-index: 1000;
     }
-
     nav button {
       background-color: var(--primary);
       color: white;
@@ -67,17 +60,14 @@
       font-weight: bold;
       transition: background-color 0.3s;
     }
-
     nav button:hover {
       background-color: #005f99;
     }
-
     main {
       max-width: 1000px;
       margin: 30px auto;
       padding: 20px;
     }
-
     section {
       display: none;
       background-color: white;
@@ -86,16 +76,13 @@
       border-radius: 8px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
-
     section.active {
       display: block;
     }
-
     h2 {
       color: var(--primary);
       margin-bottom: 15px;
     }
-
     footer {
       text-align: center;
       padding: 20px;
@@ -103,17 +90,14 @@
       color: #666;
       background-color: #f0f0f0;
     }
-
     @media (max-width: 600px) {
       header {
         flex-direction: column;
         text-align: center;
       }
-
       nav {
         flex-direction: column;
       }
-
       nav button {
         width: 90%;
       }
@@ -121,12 +105,10 @@
   </style>
 </head>
 <body>
-
 <header>
   <h1>Wiki: Stadtteilschule Eppendorf</h1>
   <p>„Klein anfangen – gemeinsam wachsen – groß rauskommen“</p>
 </header>
-
 <nav>
   <button onclick="zeige('info')">Allgemeines</button>
   <button onclick="zeige('konzept')">Pädagogik</button>
@@ -137,7 +119,6 @@
   <button onclick="zeige('Kontakt')">Unsere Informationen</button>
   <button onclick="zeige('Über uns')">Über uns</button>
 </nav>
-
 <section id="info" class="active">
   <h2>📍 Allgemeine Informationen</h2>
   <p>Die Grund- und Stadtteilschule Eppendorf (GSE) ist eine staatliche Schule in Hamburg mit durchgängigem Bildungsweg von der Vorschule bis zum Abitur. Sie befindet sich im Stadtteil Hoheluft-Ost.</p>
@@ -149,7 +130,6 @@
     <li>Website: <a href="https://www.gseppendorf.de" target="_blank">www.gseppendorf.de</a></li>
   </ul>
 </section>
-
 <section id="konzept">
   <h2>🧑‍🏫 Pädagogisches Konzept</h2>
   <p>Die pädagogische Arbeit an der Stadtteilschule Eppendorf basiert auf dem Leitgedanken „klein anfangen – gemeinsam wachsen – groß rauskommen“ und verfolgt ein ganzheitliches Bildungskonzept, das Kinder und Jugendliche über ihre gesamte Schullaufbahn hinweg begleitet und individuell fördert. Von der Vorschule bis zur Oberstufe steht das gemeinsame Lernen im Mittelpunkt, wobei die Schule großen Wert auf Selbstständigkeit, Verantwortung und soziales Miteinander legt. Bereits in der Grundschule werden die Kinder dazu ermutigt, eigenverantwortlich zu arbeiten, sich gegenseitig zu unterstützen und ihre Lernprozesse aktiv mitzugestalten. Die Schule versteht sich als ein Ort, an dem Vielfalt als Stärke gesehen wird und jedes Kind in seinem eigenen Tempo lernen darf. Inklusion ist dabei kein Zusatz, sondern ein selbstverständlicher Bestandteil des Schulalltags. Die GSE bietet differenzierte Lernangebote, fördert Talente gezielt und unterstützt bei besonderen Herausforderungen mit einem multiprofessionellen Team. Projektorientiertes Arbeiten, fächerübergreifende Themen und kreative Methoden sind feste Bestandteile des Unterrichts. Auch die Berufsorientierung wird frühzeitig integriert, sodass die Schülerinnen und Schüler nicht nur schulisch, sondern auch persönlich und beruflich auf ihrem Weg begleitet werden. Die Schule lebt eine offene Feedbackkultur, in der Lehrkräfte, Eltern und Schüler:innen gemeinsam an der Weiterentwicklung der Lernkultur arbeiten. Durch regelmäßige pädagogische Tage, Fortbildungen und Austauschformate bleibt das Kollegium stets in Bewegung und offen für neue Impulse. Die Stadtteilschule Eppendorf versteht Bildung nicht als bloße Wissensvermittlung, sondern als Prozess der Persönlichkeitsentwicklung, der Neugier weckt, Selbstvertrauen stärkt und junge Menschen dazu befähigt, ihren eigenen Weg zu gehen – mit Mut, Verantwortung und einem klaren Blick für die Welt um sie herum, sie bietet:</p>
@@ -160,17 +140,14 @@
     <li>Berufsorientierung ab Klasse 8</li>
   </ul>
 </section>
-
 <section id="geschichte">
   <h2>🏛️ Geschichte & Architektur</h2>
   <p>Die Stadtteilschule Eppendorf blickt auf eine lange und bewegte Geschichte zurück, die tief mit der Entwicklung des Hamburger Bildungswesens verwoben ist. Ursprünglich als getrennte Schulen für Jungen und Mädchen im frühen 20. Jahrhundert gegründet, entstanden die heutigen Schulgebäude zwischen 1910 und 1928 nach Entwürfen namhafter Architekten wie Albert Erbe und Fritz Höger. Diese historischen Backsteinbauten prägen bis heute das Erscheinungsbild der Schule und verleihen ihr einen besonderen architektonischen Charakter. Nach dem Zweiten Weltkrieg wurden die Schulen zusammengeführt und mehrfach reformiert, bis schließlich 1990 die Gesamtschule Eppendorf gegründet wurde – ein Vorläufer der heutigen Grund- und Stadtteilschule Eppendorf. Mit der Einführung der Stadtteilschulen in Hamburg entwickelte sich die GSE zu einer durchgängigen Bildungseinrichtung, die Kinder von der Vorschule bis zum Abitur begleitet. Besonders prägend war dabei der frühe Fokus auf Inklusion, individuelle Förderung und projektorientiertes Lernen. Die Schule etablierte sich als Vorreiterin für integrative Pädagogik und wurde für ihr Engagement mehrfach ausgezeichnet, unter anderem mit dem Hamburger Bildungspreis im Jahr 2015. Neben der pädagogischen Weiterentwicklung wurde auch die bauliche Infrastruktur modernisiert: Neue Fachräume, eine Mensa, ein großzügiger Schulhof und digitale Lernumgebungen ergänzen heute die historischen Gebäude. Die GSE versteht sich nicht nur als Lernort, sondern als lebendige Gemeinschaft, in der Vielfalt, Verantwortung und Mitgestaltung zentrale Werte sind. Mit zahlreichen kulturellen Projekten, internationalen Austauschprogrammen und einer engen Verankerung im Stadtteil ist die Schule ein aktiver Teil des gesellschaftlichen Lebens in Hamburg-Eppendorf geblieben. Ihre Geschichte ist ein Beispiel dafür, wie sich Schule im Spannungsfeld von Tradition und Innovation stetig weiterentwickeln kann, ohne ihre Identität zu verlieren.</p>
 </section>
-
 <section id="aktivitaeten">
 <h2>🏆Schulische Aktivitäten & Sportliche zeiten</h2>
   <p>Die Stadtteilschule Eppendorf legt großen Wert auf Bewegung, Teamgeist und sportliche Förderung als festen Bestandteil des schulischen Alltags. Sport ist hier nicht nur ein Unterrichtsfach, sondern ein zentrales Element der Schulkultur, das Schülerinnen und Schüler aller Jahrgänge verbindet und motiviert. Von der Vorschule bis zur Oberstufe werden vielfältige Bewegungsangebote gemacht, die sowohl den Breitensport als auch individuelle Talente fördern. Die Schule verfügt über moderne Sporthallen, einen großzügigen Außensportbereich und nutzt zusätzlich nahegelegene Sportanlagen im Stadtteil. Regelmäßige Sportveranstaltungen wie die Bundesjugendspiele, der Spendenlauf, das Fußballturnier der Jahrgänge oder das schulinterne Leichtathletikfest sind feste Höhepunkte im Schuljahr und stärken das Gemeinschaftsgefühl. Besonders beliebt ist der jährliche Spendenlauf, bei dem die gesamte Schulgemeinschaft für einen guten Zweck antritt und dabei sportlichen Ehrgeiz mit sozialem Engagement verbindet. Darüber hinaus bietet die Schule zahlreiche Arbeitsgemeinschaften im Bereich Sport an, darunter Tanz, Basketball, Parkour, Yoga und Selbstverteidigung. Auch Kooperationen mit Hamburger Sportvereinen ermöglichen es den Schülerinnen und Schülern, neue Sportarten kennenzulernen und sich über den Unterricht hinaus zu engagieren. In der Oberstufe wird Sport zudem als Profilfach angeboten, das nicht nur körperliche Fitness, sondern auch sportwissenschaftliches Denken und Teamorganisation vermittelt. Die GSE versteht Sport als wichtigen Beitrag zur Persönlichkeitsentwicklung, zur Gesundheitsförderung und zur sozialen Integration – und schafft damit Räume, in denen junge Menschen sich ausprobieren, über sich hinauswachsen und gemeinsam Erfolge feiern können.</p>
 </section>
-
 <section id="personen">
   <h2>👥 Personen & Credits</h2>
   <p>Diese Wiki-Seite wurde inspiriert, gestaltet oder unterstützt von:</p>
@@ -183,7 +160,6 @@
     <li>🎤 David L. – Interviews & Audio</li>
   </ul>
 </section>
-
 <section id="Kontakt">
   <h2>💻 Kontakt zum Webseiten-Ersteller</h2>
   <p>Du hast Fragen zur Gestaltung dieser Wiki-Seite oder möchtest Feedback geben? Dann melde dich gern beim Ersteller dieser Webseite:</p>
@@ -194,68 +170,47 @@
   </ul>
   <p>Diese Seite wurde mit viel Liebe zum Detail und einem Hauch Humor erstellt. 💙</p>
 </section>
-
-
 <section id="Direktor">
   <h2>🕵️ Haupt-Direktor</h2>
   <p>Zuvor wurde diese Webseite von <strong>Kihan N.</strong> entwickelt. Seine Spezialität? Kaffee, Kreide und kosmische Lehrpläne. 😄</p>
 </section>
-
 <section id="Über uns">
 <h2>Über uns</h2>
 <p> <strong> Über uns
-
 Willkommen an der Grund- und Stadtteilschule Eppendorf (GSE) – einer Schule, die mehr ist als ein Lernort. Wir sind ein lebendiger Bildungsraum mitten in Hamburg, in dem Kinder und Jugendliche von der Vorschule bis zum Abitur begleitet, gefördert und gefordert werden. Unsere Schule steht für Vielfalt, Gemeinschaft und eine Pädagogik, die den Menschen in den Mittelpunkt stellt.
 🌱 Unsere Philosophie: Klein anfangen – gemeinsam wachsen – groß rauskommen
-
 Dieser Leitsatz prägt unser tägliches Handeln. Wir glauben daran, dass Bildung nicht nur Wissen vermittelt, sondern Persönlichkeiten formt. Deshalb fördern wir unsere Schüler:innen individuell – mit Herz, Verstand und einem klaren Blick für ihre Stärken und Bedürfnisse.
 🏫 Unsere Struktur
-
 Die GSE ist eine staatliche Langformschule mit drei Standorten in den Stadtteilen Hoheluft-Ost und Eppendorf:
-
     Löwenstraße 58: Vorschule, Grundschule und Jahrgänge 5–7
-
     Curschmannstraße 39: Jahrgänge 8–9
-
     Schottmüllerstraße 23: Oberstufe (Jahrgänge 10–13)
-
 Mit über 1300 Schüler:innen und einem engagierten Kollegium bieten wir ein breites Bildungsangebot – vom ersten Schulabschluss bis zur Hochschulreife.
 🤝 Vielfalt & Inklusion
-
 Unsere Schule lebt Vielfalt. Kinder mit und ohne Behinderung, mit unterschiedlichen kulturellen Hintergründen und Bildungszielen lernen bei uns gemeinsam. In Integrations- und Inklusionsklassen fördern wir gegenseitiges Verständnis und ein respektvolles Miteinander. Demokratisches Lernen, Partizipation und Mitgestaltung sind bei uns keine Schlagworte, sondern gelebte Praxis – vom Klassenrat bis zum Schüler:innenparlament.
 🎨 Bildung mit Profil
-
 Wir setzen auf eine ganzheitliche Bildung, die über den Unterricht hinausgeht:
-
     Musik & Kultur: Kooperation mit „The Young ClassX“, Bigband-Angebote, Kulturabende und Stadtteilkonzerte
-
     Sport & Bewegung: Teilnahme an „Jugend trainiert für Olympia“, Bundesjugendspiele, eigener Sportplatz
-
     Umwelt & Nachhaltigkeit: Fünfmal ausgezeichnet als „Umweltschule in Europa“, Solaranlagen-Projekte, Umwelt-AGs
-
     Berufsorientierung: Träger des „Berufswahl-SIEGEL Hamburg“, Praktika, Workshops und Studienberatung
-
 💻 Lernen mit digitalen Medien
-
 Digitale Bildung ist bei uns fest verankert. Mit Lernplattformen, Smartboards und digitalen Endgeräten gestalten wir modernen Unterricht, der auf die Zukunft vorbereitet. Gleichzeitig achten wir darauf, dass Technik sinnvoll und pädagogisch fundiert eingesetzt wird.
 🧑‍🏫 Pädagogisches Team & Schulklima
-
 Unsere Lehrkräfte, Sozialpädagog:innen und Mitarbeiter:innen arbeiten Hand in Hand, um eine vertrauensvolle und fördernde Lernatmosphäre zu schaffen. Regelmäßige Fortbildungen, pädagogische Jahrestage und ein aktiver Austausch mit Eltern und Schüler:innen sorgen dafür, dass wir uns als Schule stetig weiterentwickeln.
 📚 Geschichte & Architektur
-
 Die GSE blickt auf eine bewegte Geschichte zurück: Gegründet 1990 als Gesamtschule Eppendorf, wurde sie 2010 im Zuge der Hamburger Schulreform zur Stadtteilschule. Die historischen Schulgebäude – darunter das denkmalgeschützte Haus an der Löwenstraße – verbinden Tradition mit Moderne und bieten Raum für kreatives Lernen.
-
+</strong>
+</p> 
+</section>
 <footer>
   © 2025 Inoffizielle Wiki-Seite zur Stadtteilschule Eppendorf | Erstellt mit ❤️ von zufälligen Genies
 </footer>
-
 <script>
   function zeige(id) {
     document.querySelectorAll('section').forEach(sec => sec.classList.remove('active'));
     document.getElementById(id).classList.add('active');
   }
 </script>
-
 </body>
 </html>
-
